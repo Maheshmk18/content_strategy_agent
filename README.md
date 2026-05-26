@@ -220,12 +220,4 @@ curl -X POST http://localhost:8000/api/generate-plan \
   -d '{"month": "June 2025"}'
 ```
 
-## Next Steps
 
-- [ ] Implement Google Sheets creation (gspread)
-- [ ] Implement SendGrid email delivery
-- [ ] Add approval workflow (approval_node)
-- [ ] Add content generation node (create actual post copy)
-- [ ] Test with real MongoDB + API keys
-- [ ] Deploy to Railway/Render
-- [ ] Add monitoring + error alerts
